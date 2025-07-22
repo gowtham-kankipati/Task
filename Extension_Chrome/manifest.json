@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Display Tab Title",
+  "version": "1.0",
+  "description": "Gets the title of the current active tab.",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "title.html",
+    "default_icon": {
+      "16": "image16.png",
+      "48": "image48.png",
+      "128": "image128.png"
+    }
+  },
+  "icons": {
+    "16": "image16.png",
+    "48": "image48.png",
+    "128": "image128.png"
+  }
+}
